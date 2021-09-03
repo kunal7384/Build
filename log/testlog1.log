@@ -1,0 +1,58 @@
+2021-09-03 14:05:47,405 [TestNG-tests-1] INFO Base Class - Chrome Browser Opened
+2021-09-03 14:05:47,428 [TestNG-tests-1] INFO Base Class - PageLoad wait given
+2021-09-03 14:05:47,446 [TestNG-tests-1] INFO Base Class - Implicit wait given
+2021-09-03 14:05:47,459 [TestNG-tests-1] INFO Base Class - Java Script wait given
+2021-09-03 14:05:47,650 [TestNG-tests-1] INFO Base Class - Maximize Window Size of chrome
+2021-09-03 14:05:55,243 [TestNG-tests-1] INFO Base Class - Url opened successfully
+2021-09-03 14:06:06,805 [TestNG-tests-1] INFO Base Class - Login with the application
+2021-09-03 14:06:34,375 [TestNG-tests-1] INFO Base Class - Click on three horizental line
+2021-09-03 14:06:56,127 [TestNG-tests-1] INFO Base Class - Click on Document
+2021-09-03 14:06:59,389 [TestNG-tests-1] INFO Base Class - Click on Create new Document
+2021-09-03 14:07:17,596 [TestNG-tests-1] INFO Base Class - Click on Save
+2021-09-03 14:07:20,970 [TestNG-tests-1] INFO Base Class - Enter Documetn Name
+2021-09-03 14:07:39,547 [TestNG-tests-1] INFO Base Class - Click on Save
+2021-09-03 14:07:56,764 [TestNG-tests-1] INFO Base Class - Upload Documetn
+2021-09-03 14:08:18,182 [TestNG-tests-1] INFO Base Class - Click on Save
+2021-09-03 14:10:20,489 [TestNG-tests-1] INFO Base Class - Chrome Browser Opened
+2021-09-03 14:10:20,517 [TestNG-tests-1] INFO Base Class - PageLoad wait given
+2021-09-03 14:10:20,531 [TestNG-tests-1] INFO Base Class - Implicit wait given
+2021-09-03 14:10:20,554 [TestNG-tests-1] INFO Base Class - Java Script wait given
+2021-09-03 14:10:20,689 [TestNG-tests-1] INFO Base Class - Maximize Window Size of chrome
+2021-09-03 14:10:29,997 [TestNG-tests-1] INFO Base Class - Url opened successfully
+2021-09-03 14:10:42,028 [TestNG-tests-1] INFO Base Class - Login with the application
+2021-09-03 14:11:11,353 [TestNG-tests-1] INFO Base Class - Click on three horizental line
+2021-09-03 14:11:34,091 [TestNG-tests-1] INFO Base Class - Click on Document
+2021-09-03 14:11:37,846 [TestNG-tests-1] INFO Base Class - Click on Create new Document
+2021-09-03 14:11:55,714 [TestNG-tests-1] INFO Base Class - Click on Save
+2021-09-03 14:11:59,049 [TestNG-tests-1] INFO Base Class - Enter Documetn Name
+2021-09-03 14:12:17,693 [TestNG-tests-1] INFO Base Class - Click on Save
+2021-09-03 14:12:33,505 [TestNG-tests-1] INFO Base Class - Upload Documetn
+2021-09-03 14:12:54,866 [TestNG-tests-1] INFO Base Class - Click on Save
+2021-09-03 14:13:30,687 [TestNG-tests-1] INFO Base Class - Download the document
+2021-09-03 14:14:51,453 [TestNG-tests-1] INFO Base Class - Chrome Browser Opened
+2021-09-03 14:14:51,476 [TestNG-tests-1] INFO Base Class - PageLoad wait given
+2021-09-03 14:14:51,497 [TestNG-tests-1] INFO Base Class - Implicit wait given
+2021-09-03 14:14:51,505 [TestNG-tests-1] INFO Base Class - Java Script wait given
+2021-09-03 14:14:51,665 [TestNG-tests-1] INFO Base Class - Maximize Window Size of chrome
+2021-09-03 14:15:04,632 [TestNG-tests-1] INFO Base Class - Url opened successfully
+2021-09-03 14:15:20,264 [TestNG-tests-1] INFO Base Class - Login with the application
+2021-09-03 14:15:51,100 [TestNG-tests-1] INFO Base Class - Click on three horizental line
+2021-09-03 14:16:13,566 [TestNG-tests-1] INFO Base Class - Click on Document
+2021-09-03 14:16:16,860 [TestNG-tests-1] INFO Base Class - Click on Create new Document
+2021-09-03 14:16:35,085 [TestNG-tests-1] INFO Base Class - Click on Save
+2021-09-03 14:16:38,453 [TestNG-tests-1] INFO Base Class - Enter Documetn Name
+2021-09-03 14:16:41,151 [TestNG-tests-1] INFO Base Class - Select document type as carrier
+2021-09-03 14:16:44,606 [TestNG-tests-1] INFO Base Class - Select Carrier
+2021-09-03 14:16:44,857 [TestNG-tests-1] INFO Base Class - document type selected
+2021-09-03 14:17:00,208 [TestNG-tests-1] INFO Base Class - Click on Save
+2021-09-03 14:17:15,707 [TestNG-tests-1] INFO Base Class - Upload Documetn
+2021-09-03 14:17:37,083 [TestNG-tests-1] INFO Base Class - Click on Save
+2021-09-03 14:18:17,739 [TestNG-tests-1] INFO Base Class - Download the document
+2021-09-03 14:19:39,337 [TestNG-tests-1] INFO Base Class - Chrome Browser Opened
+2021-09-03 14:19:39,366 [TestNG-tests-1] INFO Base Class - PageLoad wait given
+2021-09-03 14:19:39,380 [TestNG-tests-1] INFO Base Class - Implicit wait given
+2021-09-03 14:19:39,395 [TestNG-tests-1] INFO Base Class - Java Script wait given
+2021-09-03 14:19:39,538 [TestNG-tests-1] INFO Base Class - Maximize Window Size of chrome
+2021-09-03 14:19:54,137 [TestNG-tests-1] INFO Base Class - Url opened successfully
+2021-09-03 14:20:06,382 [TestNG-tests-1] INFO Base Class - Login with the application
+2021-09-03 14:20:35,559 [TestNG-tests-1] INFO Base Class - Click on three horizental line

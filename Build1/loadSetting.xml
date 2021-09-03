@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="3" verbose="1" parallel="tests">
+<!-- Put IP of localhost/Grid Hub machine -->
+	<parameter name="selenium.host" value="192.168.43.176"/>
+
+	<!-- Put Port of localhost RC/Grid Hub machine -->
+	<parameter name="selenium.port" value="4444" />
+
+	<!-- Put target browser name as below: 1) Firefox : firefox 2) chrome : 
+		chrome 3) IExplorer : ie8 / ie9 -->
+	<parameter name="selenium.browser" value="chrome" />
+  <parameter name="selenium.url" value="https://loadstopwebdev.azurewebsites.net/"/>
+  <parameter name="selenium.url" value="https://loadstopwebdev.azurewebsites.net/App/SplitLoads"/>
+  
+ 
+ 
+  <test  name="Create load using Non Approved Customer setting">
+    <classes>
+      <class name="com.loadstop.qa.testcases.loadsetting.CustomerCreditLoadSettingNotApprovedCustomer"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="Create load using Credit Limit Reached Load setting">
+    <classes>
+      <class name="com.loadstop.qa.testcases.loadsetting.CustomerCreditLoadSettingCreditLimitReached"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="Create load using Block Customer Load setting"> 
+    <classes>
+      <class name="com.loadstop.qa.testcases.loadsetting.CustomerCreditBlockCustomerLoadSettring"/>
+    </classes>
+  </test> <!-- Test --> 
+  
+  <test  name="Verify load cancellation notes required Load setting"> 
+    <classes>
+      <class name="com.loadstop.qa.testcases.loadsetting.LoadCancellationNotesRequired"/>
+    </classes>
+  </test> <!-- Test --> 
+  
+  <test  name="Verify  Customer Bol Load Setting">
+    <classes>
+      <class name="com.loadstop.qa.testcases.loadsetting.CustomerBOLIsRequire"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="Verify Enable Validation For Customer Bol Load Setting">
+    <classes>
+      <class name="com.loadstop.qa.testcases.loadsetting.EnableValidationForCustomerBolLoadSetting"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="Create load using Disable duplicate Load # Load setting">
+    <classes>
+      <class name="com.loadstop.qa.testcases.loadsetting.DisableDuplicateLoad"/>
+    </classes>
+  </test> <!-- Test -->
+  
+ 
+</suite> <!-- Suite -->

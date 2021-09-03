@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ 
+ <suite-files>
+ <suite-file path="Build\loginNegativeScenario.xml"></suite-file>
+ </suite-files>
+ 
+ <suite-files>
+ <suite-file path="Build\loginValid.xml"></suite-file>
+ </suite-files>
+ 
+
+ 
+ <suite-files>
+ <suite-file path="Build\loadNegativeScenario.xml"></suite-file>
+ </suite-files>
+ 
+ <suite-files>
+ <suite-file path="Build\createLoadIndex.xml"></suite-file>
+ </suite-files>
+ 
+ <suite-files>
+ <suite-file path="Build\customerCreditNotApprovedCustomerLoadSetting.xml"></suite-file>
+ </suite-files>
+ 
+ <suite-files>
+ <suite-file path="Build\customerCreditBlockCustomerLoadSetting.xml"></suite-file>
+ </suite-files>
+ 
+  <suite-files>
+ <suite-file path="Build\customerCreditCreditLimitRachedLoadSetting.xml"></suite-file>
+ </suite-files>
+ 
+  <suite-files>
+ <suite-file path="Build\enableValidationForCustomerBol.xml"></suite-file>
+ </suite-files>
+ 
+ <suite-files>
+ <suite-file path="Build\createLoadUsingMultipleAddress.xml"></suite-file>
+ </suite-files>
+ 
+ <suite-files>
+ <suite-file path="Build\disableDuplicateLoad.xml"></suite-file>
+ </suite-files>
+ 
+ <suite-files>
+ <suite-file path="Build\customerBolIsRequired.xml"></suite-file>
+ </suite-files>
+ 
+
+ <suite-files>
+ <suite-file path="Build\loadCancellationNotesRequire.xml"></suite-file>
+ </suite-files>
+ 
+ 
+ <suite-files>
+ <suite-file path="Build\editLoad.xml"></suite-file>
+ </suite-files>
+ 
+ <suite-files>
+ <suite-file path="Build\editLoadAccessorialTabs.xml"></suite-file>
+ </suite-files>
+ 
+  <suite-files>
+ <suite-file path="Build\editLoadSupportTab.xml"></suite-file>
+ </suite-files>
+ 
+  <suite-files>
+ <suite-file path="Build\editLoadEvent.xml"></suite-file>
+ </suite-files>
+ 
+  <suite-files>
+ <suite-file path="Build\editLoadDocs.xml"></suite-file>
+ </suite-files>
+ 
+  <suite-files>
+ <suite-file path="Build\editLoadStopInfo.xml"></suite-file>
+ </suite-files>
+ 
+  <suite-files>
+ <suite-file path="Build\loadCancellationNotesRequire.xml"></suite-file>
+ </suite-files>
+ 
+  <suite-files>
+ <suite-file path="Build\cancelLoad.xml"></suite-file>
+ </suite-files>
+ 
+  <suite-files>
+ <suite-file path="Build\bolAndConfirmation.xml"></suite-file>
+ </suite-files>
+ 
+  <suite-files>
+ <suite-file path="Build\teamToggle.xml"></suite-file>
+ </suite-files>
+ 
+  <suite-files>
+ <suite-file path="Build\dispatchLoad.xml"></suite-file>
+ </suite-files>
+ 
+ 
+ 
+ </suite> <!-- Suite -->

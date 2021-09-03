@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="com.loadstop.qa.utility.CustomReporterListener"/>	
+ </listeners> 
+  <test  name="Verify Login of Multiple tenant User.">
+   <parameter name="browser" value="chrome"/> 
+  <parameter name="selenium.url" value="https://loadstopwebdev.azurewebsites.net/"/>
+    <classes>
+      <class name="com.loadstop.qa.testcases.production.load.CreateNewLoadIndex"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

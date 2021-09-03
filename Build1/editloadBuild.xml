@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" verbose="1" parallel="tests">
+<listeners>
+		<listener class-name="com.loadstop.qa.utility.CustomReporterListener"/>	
+ </listeners> 
+ <!-- Put IP of localhost/Grid Hub machine -->
+	<parameter name="selenium.host" value="192.168.43.176"/>
+
+	<!-- Put Port of localhost RC/Grid Hub machine -->
+	<parameter name="selenium.port" value="4444" />
+
+	<!-- Put target browser name as below: 1) Firefox : firefox 2) chrome : 
+		chrome 3) IExplorer : ie8 / ie9 -->
+	<parameter name="selenium.browser" value="chrome" />
+  <parameter name="selenium.url" value="https://loadstopwebdev.azurewebsites.net/App/SplitLoads"/> 
+  <test  name="Verify edit load functionality">
+    <classes>
+      <class name="com.loadstop.qa.testcases.editload.EditLoad"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="Verify cancel Load functionality">
+    <classes>
+      <class name="com.loadstop.qa.testcases.editload.CancelLoad"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="Verify edit load stop Info  functionality">
+    <classes>
+      <class name="com.loadstop.qa.testcases.editload.EditLoadStopInfo"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test  name="Verify edit Pick up and Delivery Location"> 
+    <classes>
+      <class name="com.loadstop.qa.testcases.editload.EditPickUpAndDeliveryLocation"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test  name="Verify Team Toggle">
+    <classes>
+      <class name="com.loadstop.qa.testcases.editload.TeamToggle"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="Verify Bol And Confirmation upload Doc functionality">
+    <classes>
+      <class name="com.loadstop.qa.testcases.editload.BolAndConfirmationTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="Verify edit load Accessorial Tabs functionality"> 
+    <classes>
+      <class name="com.loadstop.qa.testcases.editload.EditLoadAccessorialTabs"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test  name="Verify edit load Docs functionality">
+    <classes>
+      <class name="com.loadstop.qa.testcases.editload.EditLoadDocs"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="Verify edit load Event functionality">
+    <classes>
+      <class name="com.loadstop.qa.testcases.editload.EditLoadEventsTab"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test  name="Verify edit Load Support Tabs functionality"> 
+    <classes>
+      <class name="com.loadstop.qa.testcases.editload.EditLoadSupportTabs"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+ 
+</suite> <!-- Suite -->
